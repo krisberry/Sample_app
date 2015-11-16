@@ -53,6 +53,12 @@ p {
   line-height: 1.7em;
 }
 
+a {
+  color: #FF0000;
+    &:hover{
+    color: #B22222;
+  }
+}
 
 /* header */
 
@@ -95,4 +101,11 @@ footer {
       margin-left: 15px;
     }
   }
+}
+
+.btn-lg{
+   backgraund-color: #FF0000;
+    &:hover{
+  backgraund-color: #B22222;
+    }
 }
